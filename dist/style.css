@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.navbar-brand {
+  font-size: 40px;
+}
+.card {
+  margin: 10px;
+  padding: 0;
+}
+.container {
+  justify-content: space-evenly;
+}
+h3 {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}

@@ -28,7 +28,7 @@ const createManager = () => {
       name: 'id',
       message: "What is the manager's ID?",
       validate: input => {
-        if (isNAN(input)) {
+        if (isNaN(input)) {
           console.log('You must input a number');
         } else {
           return true;
@@ -94,7 +94,7 @@ const createTeam = () => {
       name: 'id',
       message: "What is the employee's ID?",
       validate: input => {
-        if (isNAN(input)) {
+        if (isNaN(input)) {
           console.log('You must input a number');
         } else {
           return true;
